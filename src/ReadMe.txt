@@ -1,3 +1,10 @@
+# Implementation of the paper *The Co-Evolution Model for Social Network Evolving and Opinion Migration*.
+
+### Graph generation
+
+
+### Inference 
+
 Usage: java Main <options>
 
 <options>:
@@ -11,4 +18,8 @@ Usage: java Main <options>
 
 Example: 
   java Main -data ../../data/cosponsor/month_based/res/ -sigma 1 -eps 0.8 -iter 5000 -verbose 1 -start 120 -time 100
+
+
+### Contact:
+[Yupeng Gu](http://web.cs.ucla.edu/~ypgu/)
 
