@@ -1,10 +1,10 @@
 # The Co-Evolution Model for Social Network Evolving and Opinion Migration
 
 ### Graph generation
-Located in directory *generation*.
+Located in directory *./src/generation*.
 
 ### Inference 
-Located in directory *inference*.
+Located in directory *./src/inference*.
 
 ##### Usage: 
 
