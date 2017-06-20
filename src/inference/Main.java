@@ -1,7 +1,6 @@
 import java.io.*;
 import java.io.File;
 import java.util.*;
-import java.util.stream.*;
 
 class Tuple {
   public double prob;
@@ -26,7 +25,6 @@ public class Main {
   /* system settings */
   public static int N;
   public static final int K = 4;
-  public static final int NUM_OUTER_ITER = 2;	// number of outer iterations
   public static final int windowSize = 12;	// every time train on X consecutive timestamps (months)
   public static double scale = 2.0;		// range of initializations
   public static final double v = 0.03;		// speed
@@ -37,7 +35,8 @@ public class Main {
   /* default settings */
   public static double sigma = 1;
   public static double eps = 0.8;
-  public static int MAX_ITER = 5000000;
+  public static int MAX_ITER = 5000000;		// sgd iterations
+  public static int NUM_OUTER_ITER = 7;		// number of outer iterations
   public static boolean VERBOSE = false;
   public static String prefix = "../../data/cosponsor/month_based/res/";
   public static int tStart = 120;
