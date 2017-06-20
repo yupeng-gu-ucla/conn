@@ -26,7 +26,7 @@ java Main <options>
 ##### Example: 
 
 ```
-  java Main -data ../../data/cosponsor/ -sigma 1 -eps 0.8 -iter 5000 -verbose 1 -start 120 -time 100
+  java Main -data ../../data/cosponsor/ -sigma 1 -eps 0.8 -iter 5000 -outer 7 -verbose 1 -start 120 -time 100
 ```
 
 
