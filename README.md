@@ -1,5 +1,7 @@
 # The Co-Evolution Model for Social Network Evolving and Opinion Migration
 
+Implementation of the paper [*The Co-Evolution Model for Social Network Evolving and Opinion Migration*](http://web.cs.ucla.edu/~ypgu/papers/KDD17_coevolution.pdf)
+
 ### Graph generation
 Located in directory *./src/generation*.
 
