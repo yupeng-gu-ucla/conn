@@ -7,7 +7,7 @@ import java.util.*;
  *   -eps: value of eps; 0.8 by default
  *   -iter: value of maximum iterations for stochastic gradient ascent (in thousands); 5000 thousand by default
  *   -outer: value of maximum outer iterations for coordinate gradient ascent; 7 by default
- *   -verbose: whether see verbose output or not (0: show all outputs; other: show limited outputs); 1 by default
+ *   -verbose: whether see verbose output or not (0: show limited outputs; other: show all outputs); 0 by default
  *   -start: start timeslice; 120 by default
  *   -time: length of timespan; 100 by default
  */
@@ -55,7 +55,7 @@ public class ArgumentParser {
       + "\t-eps: value of eps (0.8 by default)\n"
       + "\t-iter: value of maximum iterations for stochastic gradient ascent, in thousands (5000 by default)\n"
       + "\t-outer: value of maximum outer iterations for coordinate gradient ascent (7 by default)\n"
-      + "\t-verbose: whether see verbose output or not; 0: show all outputs; other: show limited outputs (1 by default)\n"
+      + "\t-verbose: whether see verbose output or not; 0: show limited outputs; other: show all outputs (0 by default)\n"
       + "\t-start: start timeslice (120 by default)\n"
       + "\t-time: length of timespan (100 by default)\n";
     System.out.println(h);
