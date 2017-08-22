@@ -31,6 +31,17 @@ java Main <options>
   java Main -data ../../data/cosponsor/ -sigma 1 -eps 0.8 -iter 5000 -outer 7 -verbose 0 -start 120 -time 100
 ```
 
+### Citation:
+```
+@inproceedings{gu2017co,
+  title={The Co-Evolution Model for Social Network Evolving and Opinion Migration},
+  author={Gu, Yupeng and Sun, Yizhou and Gao, Jianxi},
+  booktitle={Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  pages={175--184},
+  year={2017},
+  organization={ACM}
+}
+```
 
 ### Contact:
 [Yupeng Gu](http://web.cs.ucla.edu/~ypgu/)
